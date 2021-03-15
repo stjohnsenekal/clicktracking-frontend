@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MediaCard from './Components/MediaCard';
 import Grid from '@material-ui/core/Grid';

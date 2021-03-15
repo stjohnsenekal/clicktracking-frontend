@@ -13,8 +13,6 @@ const useStyles = makeStyles({
     maxWidth: 400,
     margin: "auto",
     transition: "0.3s",
-    // boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-    //boxShadow: "0 8px 40px -12px #850505",
       boxShadow: "0 8px 40px -12px #05850b",
     "&:hover": {
       boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
@@ -24,9 +22,7 @@ const useStyles = makeStyles({
     maxWidth: 400,
     margin: "auto",
     transition: "0.3s",
-    // boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
     boxShadow: "0 8px 40px -12px #850505",
-    // boxShadow: "0 8px 40px -12px #05850b",
     "&:hover": {
       boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
     }
@@ -68,7 +64,7 @@ export default function MediaCard(props) {
             {props.project}
           </Typography>
           <Typography gutterBottom variant="h6" component="h4">
-            Dev: {props.name}
+            Developer: {props.name}
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
             {props.info}
@@ -90,7 +86,7 @@ export default function MediaCard(props) {
           Validate
         </Button>
         <Button size="small" color="primary">
-          Running total score {props.score}
+          Total score {props.score}
         </Button>
       </CardActions>
     </Card>
